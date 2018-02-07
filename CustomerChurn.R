@@ -24,7 +24,7 @@ names(d)[names(d)== "SP 0-1"]<- "SP01"
 names(d)[names(d)== "Logins 0-1"]<- "Logins01"
 names(d)[names(d)== "Blog Articles 0-1"]<- "BlogArticles01"
 names(d)[names(d)== "Views 0-1"]<- "Views01"
-names(d)[names(d)== "Days Since Last Login 0-1"]<- "DaysSinceLastLogin01"
+names(d)[names(d)== " Days Since Last Login 0-1"]<- "DaysSinceLastLogin01"
 names(d)[names(d)== "Churn (1 = Yes, 0 = No)"]<- "Churn"
 
 #Performing Logistic regression in the unbalanced data first
